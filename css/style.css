@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #363738;
+    flex-wrap: wrap;
+    
+}
+
+.menu{
+    display: flex;
+    
+}
+
+ul li a{
+    text-decoration: none;
+
+    color:white
+    
+}
+
+ul.menu li{
+    list-style: none;
+    margin-left: 20px;
+    
+}
+
+div.w50 a h2{
+    color: white;
+}
+
+/*BANNER*/
+
+section.banner{
+    width: 100%;
+    min-height: 400px;
+    background-color:orange;
+    text-align: center;
+    color:white;
+}
+
+section.banner h2{
+    padding: 200px 0;
+
+}
+
+section.diferenciais{
+    display: flex;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.w33{
+    width:33.3%;
+    padding: 0 10px;
+    
+}
+
+footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:white;
+    background-color: #313638;
+    padding: 10px 0 10px;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .w33{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
